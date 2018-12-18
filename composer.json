@@ -1,0 +1,26 @@
+{
+    "name": "samansh999/iran-city",
+    "description": "Iran's city name and relation. Iran's Province, City, Section, Village, town and Abadi",
+    "authors": [
+        {
+            "name": "saman sh999",
+            "email": "saman.sh999@gmail.com"
+        }
+    ],
+    "require": {
+        "kalnoy/nestedset": "^4.3"
+    },
+	"autoload": {
+        "psr-4": {
+            "SamanSh999\\IranCity\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SamanSh999\\IranCity\\IranCityServiceProvider"
+            ],
+            "aliases": {}
+        }
+    }
+}
