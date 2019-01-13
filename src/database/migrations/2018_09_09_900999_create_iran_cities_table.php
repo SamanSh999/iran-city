@@ -3,6 +3,9 @@
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
+use SamanSh999\IranCity\Database\Seeds\IranCityCitySeeder;
+use SamanSh999\IranCity\Database\Seeds\IranCityProvinceSeeder;
+use SamanSh999\IranCity\Database\Seeds\IranCitySectionSeeder;
 
 class CreateIranCitiesTable extends Migration
 {
@@ -13,14 +16,21 @@ class CreateIranCitiesTable extends Migration
      */
     public function up()
     {
+
         Schema::create('iran_cities', function (Blueprint $table) {
             $table->increments('id');
             $table->string('type');
             $table->string('name');
-            $table->string('address');
             $table->nestedSet();
-//            $table->timestamps();
         });
+
+        IranCityProvinceSeeder::run();
+        IranCityCitySeeder::run();
+//        todo ::
+//        IranCitySectionSeeder::run();
+//        IranCityRuralSeeder::run();
+//        IranCityTownSeeder::run();
+//        IranCityVillageSeeder::run();
     }
 
     /**

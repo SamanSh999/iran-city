@@ -13,7 +13,7 @@ class IranCityServiceProvider extends ServiceProvider
 
         $this->publishes([
             __DIR__.'/database/seeds' => database_path('seeds'),
-        ], 'enso-seeders');
+        ], 'samansh999-seeders');
     }
 
     public function register()

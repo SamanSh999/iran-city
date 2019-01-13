@@ -9,7 +9,7 @@ class IranCity extends Model
 {
     use NodeTrait;
 
-    protected $table = 'cities';
+    protected $table = 'iran_cities';
 
     protected $fillable = ['name'];
 

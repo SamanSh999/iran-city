@@ -13,7 +13,11 @@
 	"autoload": {
         "psr-4": {
             "SamanSh999\\IranCity\\": "src/"
-        }
+        },
+        "classmap": [
+            "database",
+            "database/seeds"
+        ]
     },
     "extra": {
         "laravel": {
