@@ -18,7 +18,7 @@ class IranCityVillageSeeder extends Seeder
 
         ];
 
-        foreach (array_chunk($village, 500) as $set){
+        foreach (array_chunk($village, 250) as $set){
             IranCity::insert($set);
         }
 
