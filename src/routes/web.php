@@ -5,6 +5,8 @@ Route::namespace('SamanSh999\IranCity\app\Http\Controllers')
     ->prefix('iran-city')->as('iran-city.')
     ->group(function () {
 
+        Route::get('find-child/{parent_id}', 'IranCityController@find_fast');
+
         /**
          * En : Province
          * Fa : Ostan

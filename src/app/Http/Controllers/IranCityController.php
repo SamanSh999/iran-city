@@ -7,6 +7,14 @@ use SamanSh999\IranCity\app\Models\IranCity;
 
 class IranCityController extends Controller
 {
+    public function find_fast($parent_id)
+    {
+        $provinces = IranCity::where('parent_id', $parent_id)->get();
+
+//        return response()->json( ($provinces));
+        return response()->json( $provinces, 200, [], JSON_UNESCAPED_UNICODE);
+    }
+
     public function all_provinces()
     {
         $provinces = IranCity::where('type', 'استان')->get();

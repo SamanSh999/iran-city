@@ -14,6 +14,7 @@ class IranCityVillageSeeder extends Seeder
      */
     static public function run(){
 
+        //todo :: all village count : ~97000 :(
         $village = [
 
         ];
