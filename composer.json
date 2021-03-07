@@ -12,7 +12,8 @@
     },
 	"autoload": {
         "psr-4": {
-            "SamanSh999\\IranCity\\": "src/"
+            "SamanSh999\\IranCity\\": "src/",
+            "SamanSh999\\IranCity\\App\\": "src/app/"
         }
     },
     "extra": {
