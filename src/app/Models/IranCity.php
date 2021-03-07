@@ -1,6 +1,6 @@
 <?php
 
-namespace SamanSh999\IranCity\app\Models;
+namespace SamanSh999\IranCity\App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Kalnoy\Nestedset\NodeTrait;

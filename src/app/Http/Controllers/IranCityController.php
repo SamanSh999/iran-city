@@ -1,9 +1,9 @@
 <?php
 
-namespace SamanSh999\IranCity\app\Http\Controllers;
+namespace SamanSh999\IranCity\App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
-use SamanSh999\IranCity\app\Models\IranCity;
+use SamanSh999\IranCity\App\Models\IranCity;
 
 class IranCityController extends Controller
 {

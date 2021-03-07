@@ -1,7 +1,7 @@
 <?php
 
 //Route::get('get-province', 'JunkController@test');
-Route::namespace('SamanSh999\IranCity\app\Http\Controllers')
+Route::namespace('SamanSh999\IranCity\App\Http\Controllers')
     ->prefix('iran-city')->as('iran-city.')
     ->group(function () {
 

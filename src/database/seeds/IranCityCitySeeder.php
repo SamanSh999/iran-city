@@ -3,7 +3,7 @@
 namespace SamanSh999\IranCity\Database\Seeds;
 
 use Illuminate\Database\Seeder;
-use SamanSh999\IranCity\app\Models\IranCity;
+use SamanSh999\IranCity\App\Models\IranCity;
 
 class IranCityCitySeeder extends Seeder
 {
