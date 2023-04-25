@@ -11,7 +11,7 @@
 
 
 ### Prerequisites
-laravel 5.8 >
+laravel 5.8|6.x|7.x|8.x|9.x|10.x
 
 ### Installation
 
